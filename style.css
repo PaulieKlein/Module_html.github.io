@@ -1,2 +1,26 @@
-html{background-color: silver}
-body{font-family:Helvetica,Arial,sans-serif;}/*font optimal,font 2ème choix,font générique*/
+html{background-color: silver;
+box-sizing:border-box;} /*http://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
+*,*:before,*:after{
+	box-sizing:inherit;
+}
+body{
+font-family:"Courier New", Courier, monospace;/*font optimal,font 2ème choix,font générique*/
+color : blue;
+max-width:780px;
+background-color: #fff;
+margin:0 auto;/*marge extérieure*/
+padding: 20px;/*marge intérieure*/
+}
+
+a{color :darkred;}
+
+a:hover{color:yellow;}
+
+a:focus{color:red;}
+
+a:visited{color:purple;}
+
+h1,h2,h3,h4,h5,h6{
+font-weight:normal;
+text-transform: uppercase;
+}
