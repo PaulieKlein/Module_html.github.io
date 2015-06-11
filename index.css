@@ -1,5 +1,9 @@
 a {color: red;}
-h2 {color:blue;}
+.section-presentation h2 {color:blue;}
+.section-presentation p {color:purple;}
+.section-legale h2 {color:hotpink;}
+.section-formation h2 {color:yellow;}
+.section-formation li{color:silver;}
 section{color:green;}
 html{background-color: #66FFFF}
 fieldset{background-color: #FF99FF;
@@ -12,3 +16,6 @@ legend{font-weight :900;}
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.submit{color:#CC0000;
+     background-color:#FFCC00;}
+/*Ici des commentaires*/
