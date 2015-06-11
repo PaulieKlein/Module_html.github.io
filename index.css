@@ -1,0 +1,14 @@
+a {color: red;}
+h2 {color:blue;}
+section{color:green;}
+html{background-color: #66FFFF}
+fieldset{background-color: #FF99FF;
+border : 5px black solid;
+border-color: orange;}
+legend{font-weight :900;}
+.main-title {
+    font-size: 50px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#045FB4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
