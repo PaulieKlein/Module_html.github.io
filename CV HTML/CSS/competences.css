@@ -1,0 +1,115 @@
+html{background-color: white;
+box-sizing:border-box;} /*http://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
+*,*:before,*:after{
+	box-sizing:inherit;
+}
+
+body{
+/*font optimal,font 2ème choix,font générique*/
+color : black;
+max-width:1000px;
+/*background-color: #F8F8F8;*/
+margin:0 auto;/*marge extérieure pour centrer (possibilité valeur négative)*/
+padding: 20px;/*marge intérieure*/
+margin-top: 30px;
+}
+
+.main-nav ul{
+padding:0px;
+margin:0px;
+list-style-type: none;
+border-bottom: 3px solid black;
+}
+
+.main-nav li{
+display: inline-block;/*éléments en ligne*/
+padding:10px;
+text-transform: uppercase;
+}
+
+.main-nav a{
+text-decoration: none;
+color:black;
+}
+
+.main-nav li:hover{
+	background-color: silver;
+}
+.main-nav li:hover:before{
+	color : silver;
+}
+.nom-li{
+	background-color: black;
+	color: white;
+}
+
+.comp-li{
+	background-color: #00CCFF;
+	color: black;
+}
+.fieldset-main legend{
+margin:auto;
+}
+.fieldset-main{
+	margin: auto;
+	margin-top: 50px;
+	width :400px;
+}
+
+.fieldset-main h1{
+text-align:center;
+}
+.main{
+	font-family: "Times New Roman", Georgia, Serif;
+	line-height: 200%;
+	padding-top: 30px;
+}
+.projets,.techniques,.langues,.interets,.qualites{
+	float:left;	
+	width :450px;
+	padding-left: 20px;
+	padding-top: 20px;
+
+}
+
+.projets h2,.techniques h2,.langues h2,.interets h2,.qualites h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.techniques ul, .langues ul, .interets ul, .qualites ul, .projets ul{
+list-style-type: none;
+}
+.techniques li:before{
+	content:"\2714 " ;
+	color: blue;
+}
+
+.langues li:before{
+	content:"\1F445 " ;
+	color: blue;
+}
+
+.interets .lis:before{
+	content:"\1F3BE " ;
+	color: blue;
+}
+
+.interets .lia:before{
+	content:"\1F4D6 " ;
+	color: blue;
+}
+
+.qualites li:before{
+	content:"\2600 " ;
+	color: blue;
+}
+
+.projets li:before{
+	content:"\1F481 " ;
+	color: blue;
+}
+.img{
+	width: 75px;
+	height: 75px;
+}

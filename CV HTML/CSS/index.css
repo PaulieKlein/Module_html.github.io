@@ -1,0 +1,97 @@
+﻿html{background-color: white;
+box-sizing:border-box;} /*http://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
+*,*:before,*:after{
+	box-sizing:inherit;
+}
+
+body{
+/*font optimal,font 2ème choix,font générique*/
+color : black;
+max-width:1000px;
+background-color: #fff;
+margin:0 auto;/*marge extérieure pour centrer (possibilité valeur négative)*/
+padding: 20px;/*marge intérieure*/
+margin-top: 30px;
+}
+
+.main-nav ul{
+padding:0px;
+margin:0px;
+list-style-type: none;
+border-bottom: 3px solid black;
+}
+
+.main-nav li{
+display: inline-block;/*éléments en ligne*/
+padding:10px;
+text-transform: uppercase;
+}
+
+.main-nav a{
+text-decoration: none;
+color:black;
+}
+
+.main-nav li:hover{
+	background-color: silver;
+}
+.main-nav li:hover:before{
+	color : silver;
+}
+.nom-li{
+	background-color: black;
+	color: white;
+}
+
+.index-li{
+	background-color: #00CCFF;
+	color: black;
+}
+
+.fieldset-main{
+	margin: auto;
+	margin-top: 50px;
+	width :400px;
+}
+
+.fieldset-main legend{
+	margin: auto;
+}
+
+.fieldset-main h1{
+text-align:center;
+}
+
+.photo img{
+	width:170px;
+	height: 250px;
+	margin-top: 20px;
+}
+
+
+.details li{
+	border-bottom: 1px solid silver;
+	/*margin-top: 20px;*/
+	width:300px;
+	list-style-type: none;
+}
+
+.details , .photo, l{
+	float:left;
+	margin-top: 30px;
+}
+
+.profil{
+	float:left;
+	width :400px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.profil h2 {
+	text-transform: uppercase;
+}
+.main{
+	font-family: "Times New Roman", Georgia, Serif;
+	line-height: 200%;
+}

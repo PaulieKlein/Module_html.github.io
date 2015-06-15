@@ -1,0 +1,118 @@
+html{background-color: white;
+box-sizing:border-box;} /*http://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
+*,*:before,*:after{
+	box-sizing:inherit;
+}
+
+body{
+/*font optimal,font 2ème choix,font générique*/
+color : black;
+max-width:1000px;
+/*background-color: #F8F8F8;*/
+margin:0 auto;/*marge extérieure pour centrer (possibilité valeur négative)*/
+padding: 20px;/*marge intérieure*/
+margin-top: 30px;
+}
+
+.main-nav ul{
+padding:0px;
+margin:0px;
+list-style-type: none;
+border-bottom: 3px solid black;
+}
+
+.main-nav li{
+display: inline-block;/*éléments en ligne*/
+padding:10px;
+text-transform: uppercase;
+}
+
+.main-nav a{
+text-decoration: none;
+color:black;
+}
+
+.main-nav li:hover{
+	background-color: silver;
+}
+.main-nav li:hover:before{
+	color : silver;
+}
+.nom-li{
+	background-color: black;
+	color: white;
+}
+
+.exp-li{
+	background-color: #00CCFF;
+	color: black;
+}
+.fieldset-main legend{
+margin:auto;
+}
+
+header{
+	margin-bottom: 20px;
+}
+.fieldset-main{
+	margin: auto;
+	margin-top: 50px;
+	width :400px;
+}
+
+.fieldset-main h1{
+text-align:center;
+}
+
+.gauche,.description,.description1,.gauche1{
+	float:left;
+	margin-top: 30px;
+}
+
+.description{
+	width:650px;
+	border-left: 1px solid black;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+
+.description1{
+	width:650px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+.gauche, .gauche1{
+	max-width: 200px;
+
+	padding-right: 20px;
+}
+
+.date{
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+.main{
+	font-family: "Times New Roman", Georgia, Serif;
+	line-height: 200%;
+}
+hr{
+	width :1000px;
+}
+.entreprise .nom{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+.entreprise .job{
+	text-align: center;
+	
+}
+.img{
+	width: 150px;
+	height: 150px;
+}
+
+.gauche1{
+border-right: 1px solid black;
+margin-bottom: 20px;
+}
