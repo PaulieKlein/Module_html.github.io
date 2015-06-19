@@ -8,12 +8,12 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body ng-app="todo">
 	
 	
-		<header>
+		
 	<div class="container">
 		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<div class="container">
@@ -29,13 +29,14 @@
 			</div>
 		</nav>
 	</div>
-		</header>
-		<div class="jumbotron">
+		
+		<header>
+		<div class="jumbotron myHeader">
 				<div class="container">
 					<h1>Accueil</h1>
 					<div class="row">
 						<div class="col-md-3 ">
-							<img src="http://lorempixel.com/400/200" class="img-responsive img-rounded" alt="Responsive image">
+							<img src="photo.jpg" class="img-responsive img-rounded" alt="Responsive image">
 						</div>
 						<div class="col-md-9">
 							
@@ -50,19 +51,22 @@
 				</div>
 			</div>
 		</div>
+		</header>
 		<div class="row">
-			<div class="container">
+			<section class="container">
 				<div class="col-md-3">
-					<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+					<span class="glyphicon glyphicon-user glyphicon1" aria-hidden="true"></span>
 					<br>
 					<h2>Développement Web</h2>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. 
+					consequat.
+
 				</div>
+
 				<div class="col-md-3">
-					<span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+					<span class="glyphicon glyphicon-globe glyphicon1" aria-hidden="true"></span>
 					<br>
 					<h2>langues</h2>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -71,7 +75,7 @@
 					consequat. 					
 				</div>
 				<div class="col-md-3">
-					<span class="glyphicon glyphicon-flag" aria-hidden="true"></span>
+					<span class="glyphicon glyphicon-flag glyphicon1" aria-hidden="true"></span>
 					<br>
 					<h2>Sport</h2>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -80,7 +84,7 @@
 					consequat. 					
 				</div>
 				<div class="col-md-3">
-					<span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span>
+					<span class="glyphicon glyphicon-blackboard glyphicon1" aria-hidden="true"></span>
 					<br>
 					<h2>Documentaires</h2>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -88,8 +92,10 @@
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. 
 				</div>
-			</div>
-		
+			</section>
+			<br>
+			<br>
+		</div>
 		<footer>
 		
 		<div class="jumbotron">
@@ -98,6 +104,7 @@
 				<a class ="btn btn-primary col-md-2 col-md-offset-5" href="contact.html" role="button">Contact</a>
 				
 			</div>
+			<br>
 		</div>	
 		</footer>
 	</div>
