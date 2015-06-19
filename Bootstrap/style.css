@@ -17,3 +17,13 @@ img {
 	color:#3366FF;
 	font-size: 4em;
 }
+
+.gauche{
+	font-size: 2em;
+	border-right:1px solid black;	
+	
+}
+.formation{
+	border-bottom:1px solid black;
+	padding:10px;	
+}
