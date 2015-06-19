@@ -1,0 +1,62 @@
+html,body{
+	height: 100%;
+	margin :0px;
+}
+
+body{
+	font-family: Helvetica,sans-serif;
+}
+.cell11{
+	background-color: #0000CC;
+}
+.cell12{
+	background-color: #0000FF;
+}
+.cell13{
+	background-color: #0033CC;
+}
+.cell21{
+	background-color: #0033FF;
+}
+
+.cell22{
+	background-color: #0066CC;
+}
+.cell23{
+	background-color: #0066FF;
+}
+.cell31{
+	background-color: #0099FF;
+}
+
+.cell32{
+	background-color: #00CCFF;
+}
+.cell33{
+	background-color: #00FFFF;
+}
+
+
+td{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 10em;
+	text-shadow : 20px 20px 20px orange,
+				  20px 20px 20px pink;/*rgba(255,120,120,.3)*/
+ 	border : 2px solid orange;
+}
+.table{
+	border-collapse: collapse;
+	width:100%;
+	height:100%;
+}
+
+.table .cell11:hover{
+	background-color: yellow;
+}
+
+.table .cell12:hover{
+	background-color: red;
+}
+

@@ -19,6 +19,9 @@ padding:0px;
 margin:0px;
 list-style-type: none;
 border-bottom: 3px solid black;
+position : fixed;
+top:0;
+background-color: #E8E8E8 ;
 }
 
 .main-nav li{

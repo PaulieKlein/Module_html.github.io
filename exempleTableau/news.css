@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Scada:400italic,400);
+
+html{background-color: white;
+box-sizing:border-box;} /*http://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
+*,*:before,*:after{
+	box-sizing:inherit;
+}
+body{
+	max-width:80%;
+	margin:0 auto;
+	line-height: 1.5em;/*taille interligne*/
+}
+
+h1{
+	text-align: center;
+	font-family: 'Scada', sans-serif;
+}
+h2,h3{
+	text-transform: uppercase;
+}
+
+.haut,.bas{
+border-top :1px blue solid;
+}
+
+.haut:after{
+  content:" ";
+  clear:both;
+  display:block;
+}
+
+.bas:after{
+  content:" ";
+  clear:both;
+  display:block;
+}
+.haut1,.haut2,.haut3{
+float:left;
+width: 33.3333%;
+padding: 0 15px;
+font-size: .9em;
+}
+.bas1,.bas2,.bas3{
+float:left;	
+width: 33.3333%;
+padding: 0 15px;
+font-size: .9em;
+}
+
+
+
+.img1{
+	width:100%;
+	height:auto;
+	max-width: 100%
+}
+
